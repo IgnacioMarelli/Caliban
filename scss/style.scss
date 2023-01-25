@@ -541,18 +541,6 @@ img{
 	width: 100%;
   }
   
-  @media(min-width: 540px){
-	.card-grid{
-	  grid-template-columns: repeat(2, 1fr); 
-	}
-  }
-  
-  @media(min-width: 960px){
-	.card-grid{
-	  grid-template-columns: repeat(4, 1fr); 
-	}
-  }
-  
   .card{
 	list-style: none;
 	position: relative;
@@ -577,7 +565,7 @@ img{
 	right: 0;
 	top: 0;
 	transform-origin: center;
-	trsnsform: scale(1) translateZ(0);
+	transform: scale(1) translateZ(0);
 	transition: 
 	  filter 200ms linear,
 	  transform 200ms linear;
@@ -648,6 +636,12 @@ footer{
 		margin: 0 auto;
 	}
 }
+
+@media(min-width: 960px){
+	.card-grid{
+		grid-template-columns: 1% 30% 30% 30%;
+	}
+  }
 @media only screen and (max-width:900px) {
     .menu-normal{
         display: none;
@@ -803,16 +797,13 @@ footer{
 		height: 90%;
 	  }
 	  .carousel-inner{
-		  height: 21.5rem;
+		  height: 24rem;
 		  background: black;
 	  }
 	  .carousel-caption{
 		  color: white;
 		  font-weight: bolder;
 		  bottom: -5.75rem;
-	  }
-	  .sectionMain{
-		margin-top: 3rem;
 	  }
 	  .redesFooter{
 		display: flex;
@@ -832,5 +823,14 @@ footer{
 	}
 	.component{
 		height: 25rem;
+		margin-right: 5%;
+	}
+	.card{
+		height: 11rem;
+		margin-bottom: 3.5rem;
+
+	}
+	.card-grid{
+		display: block;
 	}
 }
