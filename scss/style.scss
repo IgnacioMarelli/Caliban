@@ -6,6 +6,10 @@ body{
   display: grid;
   font-family: 'Montserrat', sans-serif;
 }
+.carousel{
+	box-shadow: 2px 20px 2px 1px rgba(0, 0, 0, 0.2);
+	z-index: 0;
+  }
 .navbar{
     background-color: black;
     display: grid;
@@ -29,13 +33,11 @@ ul{
 .imgCaliban{
     grid-area: img;
 }
-.carousel{
-    
-  z-index: 0;
-}
+
 img{
     width: 100%;
 }
+
 ::before,
 ::after {
 	content: "";
@@ -434,7 +436,7 @@ img{
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
 	backface-visibility: hidden;
-    background: linear-gradient(to top, #200122, #6f0000);
+    background-color: black;
 }
 
 .coverDesign::after {
@@ -662,4 +664,23 @@ img{
       main{
         margin-top: 14%;
       }
+	  .redesMain{
+		align-self: baseline;
+	  }
+
+	  .carousel-item{
+		  height: 16rem;
+	  }
+	  .carousel-inner{
+		  height: 21.5rem;
+		  background: black;
+	  }
+	  .carousel-caption{
+		  color: white;
+		  font-weight: bolder;
+		  bottom: -5.75rem;
+	  }
+	  .sectionMain{
+		margin-top: 3rem;
+	  }
 }
