@@ -8,7 +8,8 @@ body {
 
 .carousel {
   box-shadow: 2px 20px 2px 1px rgba(0, 0, 0, 0.2);
-  z-index: 0; }
+  z-index: 0;
+  margin-top: 3rem; }
 
 .navbar {
   background-color: black;
@@ -648,8 +649,10 @@ footer {
     margin-top: 14%; }
   .redesMain {
     align-self: baseline; }
+  .carousel {
+    margin-top: 0rem; }
   .carousel-item {
-    height: 16rem; }
+    height: 18rem; }
   .x {
     height: 90%; }
   .carousel-inner {
@@ -658,7 +661,7 @@ footer {
   .carousel-caption {
     color: white;
     font-weight: bolder;
-    bottom: -4.75rem; }
+    bottom: -5.75rem; }
   .sectionMain {
     margin-top: 3rem; }
   .redesFooter {
