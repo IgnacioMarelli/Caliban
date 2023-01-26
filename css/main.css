@@ -6,6 +6,12 @@ body {
   display: grid;
   font-family: 'Montserrat', sans-serif; }
 
+a {
+  text-decoration: none; }
+
+.s {
+  color: white; }
+
 .carousel {
   box-shadow: 2px 20px 2px 1px rgba(0, 0, 0, 0.2);
   z-index: 0;
@@ -55,6 +61,12 @@ img {
   margin: 30px 20px 30px 30px;
   padding: 0 0 0 60px;
   vertical-align: top; }
+
+.btn {
+  display: flex; }
+
+.imgLibro {
+  width: 20%; }
 
 .book {
   position: relative;
